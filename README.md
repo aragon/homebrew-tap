@@ -36,7 +36,7 @@ edit them by hand — the next release will overwrite the change.
 For `mirror`, the generator is
 [`scripts/render-homebrew-formula.sh`](https://github.com/aragon/evm-mirror/blob/main/scripts/render-homebrew-formula.sh)
 in the `evm-mirror` repo. On every `v*` tag push, its
-[`publish-homebrew`](https://github.com/aragon/evm-mirror/blob/main/.github/workflows/mirror.yaml)
+[`publish-homebrew`](https://github.com/aragon/evm-mirror/blob/main/.github/workflows/ci.yaml)
 job:
 
 1. Checks out this repo using a `HOMEBREW_TAP_TOKEN` PAT.
